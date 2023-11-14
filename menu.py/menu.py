@@ -11,7 +11,7 @@ class Account:
     def set_interest_rate(self, interest_rate):
         self.interest_rate = interest_rate
 # savings_account.py
-from Accounts import Account
+from Account import Account
 
 def create_savings_account(balance, interest_rate, user_input_interest):
     savings_account = Account(balance, interest_rate)

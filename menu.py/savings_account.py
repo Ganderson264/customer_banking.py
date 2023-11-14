@@ -1,4 +1,4 @@
-from account import Account
+from Account import Account
 """Imports the SavingsAccount class and attributes from the Account.py file."""
 class SavingsAccount(Account):
     def __init__(self, balance, interest):

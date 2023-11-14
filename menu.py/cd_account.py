@@ -1,4 +1,4 @@
-from .account import Account
+from Account import Account
 """Import the Account class from the Account.py file."""
 
 class CDAccount(Account):
